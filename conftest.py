@@ -2,7 +2,6 @@ import pytest
 import os
 import json
 import re
-import playwright
 from playwright.sync_api import sync_playwright
 
 @pytest.fixture(scope="function", autouse=True)
