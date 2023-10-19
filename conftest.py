@@ -2,7 +2,7 @@ import pytest
 import os
 import json
 import re
-from playwright.sync_api import sync_playwright, Page
+from playwright.sync_api import sync_playwright
 
 @pytest.fixture(scope="function", autouse=True)
 def browser_fixture():
